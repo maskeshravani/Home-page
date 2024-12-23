@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Register Form</title>
+
+<body bgcolor = " pink">
+
+<style>
+    body {
+      margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+     	    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgsex9FBDlp47tplWXgeVEAij4P4-h8iocQ&s');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+         
+            justify-content: center;
+            align-items: center;
+           
+      font-family: Arial, sans-serif;
+    }
+    form {
+      max-width: 600px;
+      margin: 60px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin: 5px 0 2px;
+      font-weight: bold;
+      color: #333;
+    }
+   select{
+    width: calc(60% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+   }
+    input {
+      width: calc(60% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #929FCC;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #7b89bf;
+    }
+  </style>
+</head>
+<a align = "center" >
+	<form action = "RegForm" method = "post">
+	
+	<h1>Registration Form</h1>
+	
+	<label>First Name: </lable>
+	<input type = "text" placeholder = "Enter the first name" name = "name1" required>
+	
+	<label>Last Name: </lable>
+	<input type = "text" placeholder = "Enter the last name" name = "name2" ><br><br>
+	
+	<label>Email: </lable>
+	<input type = "email" placeholder = "email12@xyz.com" name = "email1" ><br><br>
+	
+	<label>Password: </lable>
+	<input type = "password" placeholder = "Enter the password" name = "pass1" ><br><br>
+
+	<label>Birth Of Date: </lable>
+	<input type = "date" placeholder = "dd//mm//year" name = "dob"><br><br>
+	
+	<label>Age: </lable>
+	<input type = "number" placeholder = "Enter your age" name = "age" ><br><br>
+	
+	<label>Mobile Number: </lable>
+	<input type = "number" placeholder = "Enter your mobile number" name = "num" ><br><br>
+	
+	<label>Gender: </lable>
+	 <select id="gender" name="gender"  required>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      
+    <label>Address: </lable>
+ 	<textarea cols="45" rows="3" value="address" placeholder = "Enter your city" name = "add" >  
+	</textarea>   <br><br>
+	
+	<label>City</lable>
+	<input type = "text" placeholder = "Enter the city" name = "city" ><br><br>
+	
+	<label>State: </lable>
+	<input type = "text" placeholder = "Enter your state" name = "state" ><br><br>
+	
+	<label>Country: </lable>
+	<input type = "text" placeholder = "Enter your country" name = "con"><br><br>
+	
+	<label>Degree: </lable>
+	<input type = "text" placeholder = "Enter the degree" name = "deg"><br><br>
+	
+	
+	<label>Passing Year: </lable>
+	<input type = "number" placeholder = "Enter the passing year" name = "passing" ><br><br>
+	
+	<button >register </button>
+	
+</form>
+</body>
+</html>
