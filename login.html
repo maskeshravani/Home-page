@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+</head>
+<body>
+
+   <div style="display: flex; justify-content: center; align-items: center; height: 100vh; 
+            background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20241107/pngtree-red-and-black-color-mix-wtexture-image_16533995.jpg');
+            
+ background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;">
+   
+    <form action="logform" method = "post"   
+    
+    	style="width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+     
+      <h2 style="text-align: center; margin-bottom: 20px;">Login</h2>
+      
+      <div style="margin-bottom: 15px;">
+        <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      
+      <div style="margin-bottom: 15px;">
+      
+        <label for="password" style="display: block; margin-bottom: 5px;">Password:</label>
+        <input type="password" id="password" name="password" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+      </div>
+      
+      
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <label>
+          <input type="checkbox" name="remember" style="margin-right: 5px;"> Remember me
+        </label>
+        <a href="Password.html" style="text-decoration: none; color: #007BFF;">Forgot Password?</a>
+      </div> 
+      
+      
+      <button type="submit" onclick="alert('Login clicked')" style="width: 100%; padding: 10px; border: none; border-radius: 4px; background: #007BFF; color: #fff; font-size: 16px; cursor: pointer;">Login</button>
+     
+     
+      <p style="text-align: center; margin-top: 15px;">Don't have an account? <a href="regester.html" style="color: #007BFF; text-decoration: none;">Register</a></p>
+ 
+    </form>     ">
+  </div>
+</body>
+</html>
